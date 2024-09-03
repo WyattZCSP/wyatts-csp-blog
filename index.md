@@ -9,9 +9,6 @@ hide: true
 
 # Animated Race Car
 
-You can use the following HTML and CSS code to create a simple animation of a race car moving across the screen.
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
