@@ -7,75 +7,31 @@ comments: True
 ---
 
 ```python
+import sys
 import statistics
-statistics.mean([data-set])
+from typing import Union
 
-#import statistics module
+Number = Union[int, float] # Number can be either int or float type
+Numbers = list[Number] # Numbers is a list of Number types
+Scores = Union[Number, Numbers] # Scores can be single or multiple
 
+def mean(scores: Scores, method: int = 1) -> float:
+    for score in scores:
+        if type(score) == int:
+            continue
+        elif type(score) == float:
+            continue
+        else:
+            print(score)
+            return "Bad Data"
 
-import statistics
-
-data =  [2, 3, 4, 5, 6]
-
-#print mean
-print("The mean of the data is:", statistics.mean(data))
-
-# input data
-data = [2, 3, 4, 5, 6]
-
-
-# initialize variables
-
-
-sum_of_observations = 0
-number_of_observations = 0
+            return statistics.mean(scores)
 
 
-# now, iterate through list and find the sum of observations and number of observations
+testScores = [90.5, 100, 85.4, 88]
+print("The mean of the scores is: " + str(mean(testScores))) 
 
+badData = [100, "NaN", 90]
+print("The mean of the bad data is: " + str(mean(badData)))
 
-for i in data:
-  sum_of_observations += i
-  number_of_observations += 1
-
-
-mean =  sum_of_observations/number_of_observations
- #print 
-
-
-print("The mean of the data is:", mean)
-
-# define the dataset
-data = [2, 3, 4, 5, 6]
-
-
-#define a function to calculate the mean
-
-def ar_mean(data):
-  mean = sum(data)/len(data)
-  return mean
-
-
-# print
-
-print("the mean of the data is:", mean)
-
-#import statstics module
-from statistics import mean
-
-#define dictionary 
-
-data = {2:4, 3:9, 4:16, 5:25, 6:36}
-
-#print
-
-print("The Mean of the data is:", mean(data))
-
-#calculate mean without passing argument in statistics.mean()
-
-
-from statistics import mean
-
-
-mean([])
 ```
