@@ -17,7 +17,7 @@ comments: True
         return Math.floor(Math.random() * (max - min +1)) + min;
     }
 
-    const ColorBox = document.getElementById("color-box")
+    const ColorBox = document.getElementsByClassName("page-header")[0]
 
     const colors = [
         "Red",
@@ -32,7 +32,11 @@ comments: True
         const colorIndex = getRandomInt(0, colors.length-1)
         const color = colors[colorIndex]
 
-        ColorBox.classList = color
+        ColorBox.classList = ""
+        ColorBox.classList.add("page-header")
+        ColorBox.classList.add(color)
+
+        // clear classList expect for page-header, add the color
     }
 </script>
 
@@ -42,20 +46,26 @@ comments: True
     }
     .Red {
         background-color: red;
+        background-image: linear-gradient(120deg, #155799, red);
     }
     .Orange {
         background-color: orange;
+        background-image: linear-gradient(120deg, #155799, orange)
     }
     .Yellow {
         background-color: yellow;
+        background-image: linear-gradient(120deg, #155799, yellow)
     }
     .Green {
         background-color: green;
+        background-image: linear-gradient(120deg, #155799, green)
     }
     .Blue {
         background-color: blue;
+        background-image: linear-gradient(120deg, #155799, blue)
     }
     .Purple {
         background-color: purple;
+        background-image: linear-gradient(120deg, #155799, purple)
     }
 </style>
