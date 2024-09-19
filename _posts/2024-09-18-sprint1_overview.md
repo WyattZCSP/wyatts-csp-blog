@@ -45,4 +45,4 @@ border-color: (color)
 
 > My partner and I made custom buttons based on the layout we were given. We decided that our buttons will change the content of the paragraps. Together, we worked on this to make it operate correctly.
 
-> My partner and I also decided to work on discovering some of the many, different Python syntaxes. We worked together to develop our app while researching.
+> My partner and I also decided to work on discovering some of the different features within Python syntax. We worked together to develop our app while researching.
