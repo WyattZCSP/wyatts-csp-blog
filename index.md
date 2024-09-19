@@ -27,4 +27,12 @@ alt="mario" style="width:130px; position:absolute; bottom:0; left:0;">
   moveMario();
 </script>
 
+<script src="https://utteranc.es/client.js"
+        repo="WyattZCSP/wyatts-csp-blog"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+    </script>
+
 
