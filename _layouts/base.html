@@ -14,3 +14,41 @@
   {%- include theme/cayman/base.html -%}
 {% endif %}
 </html>
+
+<script>
+  //initiate top bar color
+  const topBarColor = localStorage.getItem("top-bar-color")
+  const topBar = document.getElementsByClassName("page-header")[0]
+
+  console.log(topBarColor, topBar)
+  if (topBarColor && topBar) {
+    topBar.classList.add(topBarColor)
+  }
+</script>
+
+<style>
+    .Red {
+        background-color: red;
+        background-image: linear-gradient(120deg, #155799, red);
+    }
+    .Orange {
+        background-color: orange;
+        background-image: linear-gradient(120deg, #155799, orange)
+    }
+    .Yellow {
+        background-color: yellow;
+        background-image: linear-gradient(120deg, #155799, yellow)
+    }
+    .Green {
+        background-color: green;
+        background-image: linear-gradient(120deg, #155799, green)
+    }
+    .Blue {
+        background-color: blue;
+        background-image: linear-gradient(120deg, #155799, blue)
+    }
+    .Purple {
+        background-color: purple;
+        background-image: linear-gradient(120deg, #155799, purple)
+    }
+</style>
