@@ -61,7 +61,7 @@ async function fetchUserProfileData() {
 }
 const profilePictureData = await fetchUserProfilePicture();
 const profileData = await fetchUserProfileData();
-if (profileData.name) {
+if (profileData.name) { 
   nameDisplay.innerHTML = profileData.name;
 }
 if (profilePictureData.pfp) {
@@ -70,4 +70,4 @@ if (profilePictureData.pfp) {
 }
 ```
 
-Here, the asynchronous function allows the program to fetch the data from the uploaded profile, such as the username.
+Here, the asynchronous function allows the program to fetch the data from the uploaded profile, such as the username. Await makes sure that the program stops while it is fetching the data. If the response is not ok then it send and error, "Failed to fetch Name". Our safety net "catch" will make sure the errors don't harm our program if anything goes wrong. If there is an error, the console.error function will make it so that if there is an error, it will log it to the console, and since there is nothing to return because of the error, it will return null. The last part of the program allows for the profile data and profile picture data that was put in by the user to be displayed. nameDisplay.innerHTML allows for the username to be displayed, and the pfp.src shows the image source for the profile picture so that it can be displayed.
