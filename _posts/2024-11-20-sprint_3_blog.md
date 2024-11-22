@@ -40,7 +40,7 @@ async function fetchUserProfilePicture() {
 
 Here, the asynchronous function will be running in the background, doing multiple things at once so that the program doesn't shut down completely while fetching one piece of data. This way, it can fetch multiple at a time.
 
-const URL definies the URL that we are going to fetch from, we are addding the api, id, and pfp to the URI which in this case, is "github.com".
+const URL definies the URL that we are going to fetch from.
 
 Now, we are wrapping our code in try, so that if anything goes wrong it will be caught by our safety net "catch". What catch does is that it catches any errors inside of try so that instead of destroying all of our code, it displays the error "Error fetching user profile:" and it returns null (nothing).
 
