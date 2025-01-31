@@ -1,67 +1,12 @@
 ---
 layout: post  
-title: Sprint 4 Blog
+title: Car Management API Overview  
 description: Overview of the API for Managing User Cars  
 type: issues  
-comments: true  
+comments: True  
 ---
 
-### Question 1: 
-
-The first program code segment must be a student-developed
-procedure that:
-□ Defines the procedure’s name and return type (if necessary)
-□ Contains and uses one or more parameters that have an effect on
-the functionality of the procedure
-□ Implements an algorithm that includes sequencing, selection, and
-iteration
-
-#### CREATE CAR FUNCTION
-
-```javascript
-export async function createUserCar(make, model, year, engine_type, trim, color, vin) {
-    const postOptions = {
-        method: "POST", // *GET, POST, PUT, DELETE, etc.
-        mode: "cors", // no-cors, *cors, same-origin
-        cache: "default", // *default, no-cache, reload, force-cache, only-if-cached
-        credentials: "include", // include, same-origin, omit
-        headers: {
-          "Content-Type": "application/json",
-          "X-Origin": "client", // New custom header to identify source
-        },
-        body: JSON.stringify({
-            make: make,
-            model: model,
-            year: year,
-            engine_type: engine_type,
-            trim: trim,
-            color: color,
-            vin: vin
-        }),
-    };
-
-    const endpoint = pythonURI + '/api/userCars';
-
-    try {
-        const response = await fetch(endpoint, postOptions);
-        if (!response.ok) {
-          throw new Error(`Failed to fetch posts: ${response.status}`);
-        }
-        const posts = await response.json();
-        return posts;
-    } catch (error) {
-        console.error("Error fetching posts:", error.message);
-        return null;
-    }
-}
-```
-
-This is my create car function, it sends a post request to the server to make a new car. The createUserCar function is an asynchronous JavaScript function that sends a POST request to a backend server to create a new car entry. It takes the car details (make, model, year, engine_type, trim, color, vin) as parameters, constructs a request with these details in the body, and sends it to the /api/userCars endpoint. If the request is successful, it returns the response data; otherwise, it logs an error and returns null.
-
-### Question 2:
-
-The second program code segment must show where your
-student-developed procedure is being called in your program.
+#### SCRIPT TAG FOR CAR MANAGEMENT API ENDPOINTS
 
 ```javascript
 <script type="module">
@@ -93,8 +38,34 @@ student-developed procedure is being called in your program.
   submitButton.addEventListener('click', submitCar);
 </script>
 ```
-submitButton and carForm are references to HTML elements with IDs submit-btn and car-form, respectively.
-pythonURI is a constant that holds the URL of a local Python server. The event listener "listens" for when the submitButton is clicked, and when the submitButton is clicked, the event listener allows for the submitCar function to be executed.
+
+#### CREATE CAR FUNCTION
+
+```javascript
+export async function createCar(carData) {
+  const carOptions = {
+    method: "POST", // *POST
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer " + localStorage.getItem("authToken")  // Add token for authentication
+    },
+    body: JSON.stringify(carData),
+  };
+
+  const endpoint = pythonURI + "/api/userCars";
+  try {
+    const response = await fetch(endpoint, carOptions);
+    if (!response.ok) {
+      throw new Error(`Failed to create car: ${response.status}`);
+    }
+    const car = await response.json();
+    return car;
+  } catch (error) {
+    console.error("Error creating car:", error.message);
+    return null;
+  }
+}
+```
 
 #### _CRUD API HANDLER (Server-Side)
 
@@ -163,8 +134,6 @@ class _CRUD(Resource):
         return jsonify({"message": "Car deleted"})
 ```
 
-The CRUD API handler is a Python class which defines the server-side API endpoints for CRUD car entries. The dictionary defines all of the necessary car variables and updates an existinng car with new data, returing the updated details in JSON.
-
 #### API Documentation
 
 ### POST /api/userCars (JSON)
@@ -180,7 +149,6 @@ The CRUD API handler is a Python class which defines the server-side API endpoin
   "vin": STRING
 }
 ```
-This section provides the JSON structure for the API endpoints.
 
 ### GET /api/userCars (JSON)
 
@@ -203,7 +171,6 @@ This section provides the JSON structure for the API endpoints.
   }
 ]
 ```
-This JSON schema outlines the data structure for a car entry, including the car details and associated user info. It acts like a chest with columns for different items in Minecraft.
 
 ### PUT /api/userCars (JSON)
 
@@ -282,8 +249,6 @@ class UserCars(db.Model):
         db.session.delete(self)
         db.session.commit()
 ```
-
-This is the userCars model which explains the function of the API, and it includes all the CRUD operations.
 
 ### How the Car Management System Works
 
