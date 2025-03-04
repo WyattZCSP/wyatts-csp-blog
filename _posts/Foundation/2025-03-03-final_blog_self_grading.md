@@ -14,7 +14,8 @@ Self Grade
 | Full Stack Project Demo, including CPT requirement highlights, and N@tM feedback       | I’ve covered the CPT requirements in my feature (UserCars). I also thought that our team did a great job at the N@TM event, as many people complemented our website's looks, features, and even said that we had the best project.          |  2/2   |
 | Project Feature blog write up, using CPT/FRQ language  | I covered the main idea of my feature (UserCars) and provided both a simple and technicle overview of the feature. I also provided a demo of the feature.                  | 0.9/1   |
 | MCQ      | I completed the MCQ and anlayzed my answers. I also listed some of the answers I got wrong and looked over them so I get them right next time.                               | 0.95/1   |
-| Personal Reflection     |  I think that overall I've been very honest with my self reflection, and It has gotten me thinking about what I need  to imporve on for the AP Exam, and general work in the future. | 1/1   |
+| Total      | I believe that throughout the Trimester, I have significantly contributed to the team throigh frontend styling, creating and linking features, and helping the team communicate.                               | 9/10   |
+
 
 Next Steps: Now that I’ve completed this project, I think that I'll try to use the skills that I have built up in the future, when building a website for my business, and while taking CS related courses in College. |
 
