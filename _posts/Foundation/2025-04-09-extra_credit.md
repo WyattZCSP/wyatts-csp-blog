@@ -1,5 +1,4 @@
 ---
----
 layout: post  
 title: Extra Credit Discussion
 description: Notes for cybersecurity extra credit
