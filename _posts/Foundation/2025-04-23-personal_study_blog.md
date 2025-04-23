@@ -6,17 +6,9 @@ type: issues
 comments: true  
 ---
 
----
- layout: post
- title: Personal Learning Blog - Backend
- description: Collection of topics
- type: issues
- comments: True
- ---
+# Pilot city api/model
  
- # Pilot city api/model
- 
- ### Roads API (**/api/roads**)
+## Roads API (**/api/roads**)
  
  - **Create Road** (**POST**): Admins only
  
@@ -26,7 +18,7 @@ comments: true
  
  - **Delete Road** (**DELETE**): Admins or owners
  
- ### Reviews API (**/api/review**)
+## Reviews API (**/api/review**)
  
  - **Create Review** (**POST**): Authenticated users (logged in)
  
@@ -38,7 +30,7 @@ comments: true
  
  ---
  
- ## Models
+## Models
  
  ### **Road**
  
