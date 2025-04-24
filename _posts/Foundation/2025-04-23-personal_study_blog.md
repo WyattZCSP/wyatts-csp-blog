@@ -32,7 +32,7 @@ comments: true
  
 ## Models
  
- ### **Road**
+ ## **Road**
  
  | Field        | Type       | Description                          |
  |--------------|------------|--------------------------------------|
@@ -89,11 +89,11 @@ comments: true
  comments: True
  ---
  
- ## Using Jekyll for the header for our Pilot City Project
+  ## Using Jekyll for the header for our Pilot City Project
  
  ![sdafsda]({{site.baseurl}}/images/jekyll_hamburger_menu.png)
  
- ## config.yml
+  ## config.yml
  
  ```yml
  title: Data Mango
@@ -138,18 +138,10 @@ comments: true
  ```
  
  > This page has properties (menu_color and menu_text_color) that contribute to how it is styled on the hamburger menu.
-
- ---
- layout: post
- title: Personal Learning Blog - MCQ Prep
- description: Collection of topics
- type: issues
- comments: True
- ---
  
- # MCQ Questions Overview
+  # MCQ Questions Overview
  
- ### 1. **Conceptual Questions**
+  ## 1. **Conceptual Questions**
  These test your understanding of key computing ideas without code.
  
  **Examples:**
@@ -162,7 +154,7 @@ comments: true
  
  ---
  
- ### 2. **Pseudocode Logic**
+  ## 2. **Pseudocode Logic**
  You'll be given code-like logic and asked to predict outcomes or identify errors.
  
  **Examples:**
@@ -176,7 +168,7 @@ comments: true
  
  ---
  
- ### 3. **Data & Visual Interpretation**
+  ## 3. **Data & Visual Interpretation**
  These involve reading graphs, tables, or program outputs to draw conclusions.
  
  **Examples:**
@@ -189,7 +181,7 @@ comments: true
  
  ---
  
- ### 4. **Cybersecurity & Internet**
+  ## 4. **Cybersecurity & Internet**
  These questions check your knowledge of data transmission, encryption, and risks.
  
  **Examples:**
@@ -202,7 +194,7 @@ comments: true
  
  ---
  
- ### 5. **Impact of Computing**
+  ## 5. **Impact of Computing**
  Focuses on ethics, bias, data privacy, and social effects of computing.
  
  **Examples:**
