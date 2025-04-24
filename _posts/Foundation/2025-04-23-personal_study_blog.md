@@ -206,3 +206,5 @@ comments: true
  - Ask yourself: Who benefits? Who might be harmed?
 
 ![ham menu](https://raw.githubusercontent.com/Tvick22/CSPBlog1/0902c8f919e7c0131e6b766d6141c27784cf7ce0/images/jekyll_hamburger_menu.png)
+
+[Go to Final Blog: 5 Things](./2025-03-03-final_blog_5things.md){: .btn .btn-primary}
