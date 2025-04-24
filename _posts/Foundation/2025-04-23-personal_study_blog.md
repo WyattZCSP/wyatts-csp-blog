@@ -207,6 +207,47 @@ comments: true
 
 ![ham menu](https://raw.githubusercontent.com/Tvick22/CSPBlog1/0902c8f919e7c0131e6b766d6141c27784cf7ce0/images/jekyll_hamburger_menu.png)
 
-![ppr backend]({{site.baseurl}/images/pprbackend.png})
+![ppr backend]({{site.baseurl}/images/pprbackend.png}) 
+
+## PPR Practice
+
+- Question 1: Program Purpose and Functionality
+Q:
+Describe the overall purpose of your program. What does it do, and who is it for?
+
+A:
+The purpose of my program is to simulate a digital garage where users can create and store information about their cars. Users can add new cars with details like make, model, and year, and view or manage them later. It's designed for car enthusiasts who want to track and organize their vehicle collection.
+
+- Question 2: Data Abstraction (List Use)
+Q:
+Describe how your program uses a list. Identify the name of the list, what data it stores, and how it's used.
+
+A:
+My program uses a list called garage which stores multiple car objects. Each car object includes properties such as make, model, year, and color. This list allows the program to dynamically store and manage all the cars that a user creates. I use it to display all cars, search for specific cars, and remove cars from the garage.
+
+- Question 3: Procedural Abstraction (Custom Function)
+Q:
+Identify a procedure you defined in your program. Explain how it contributes to the program's overall functionality.
+
+A:
+I defined a function called addCar(make, model, year, color) that creates a new car object and adds it to the garage list. This function handles all the logic for building a car and storing it. It simplifies the program by letting users add new cars with a single call, rather than repeating code each time.
+
+- Question 4: Algorithm with Selection & Iteration
+Q:
+Describe an algorithm in your program that includes both selection (if statements) and iteration (loops).
+
+A:
+In my displayCarsByYear(targetYear) function, I use a loop to go through the garage list and an if statement to check if a car’s year matches the targetYear. If it matches, the car is displayed. This lets users filter their cars by year and is a good example of using both iteration and selection in one function.
+
+- Question 5: Testing and Development
+Q:
+Describe two specific test cases you used to test your program. Explain the input and the expected output for each.
+
+A:
+
+Test Case 1: I added a car with the input ("Toyota", "Supra", 1998, "Red"). After calling displayGarage(), the Supra appeared correctly in the list.
+
+Test Case 2: I searched for cars from the year 2000 using displayCarsByYear(2000), and since no cars from that year existed, the function correctly displayed a message like “No cars found from 2000.”
 
 [Go to Final Blog: 5 Things](./2025-03-03-final_blog_5things.md){: .btn .btn-primary}
+
