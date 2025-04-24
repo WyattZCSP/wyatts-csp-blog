@@ -207,7 +207,7 @@ comments: true
 
 ![ham menu](https://raw.githubusercontent.com/Tvick22/CSPBlog1/0902c8f919e7c0131e6b766d6141c27784cf7ce0/images/jekyll_hamburger_menu.png)
 
-![ppr backend]({{site.baseurl}/images/pprbackend.png}) 
+![ppr backend]({{site.baseurl}}/images/pprbackend.png) 
 
 ## PPR Practice
 
