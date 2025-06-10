@@ -16,6 +16,8 @@ Backend:
 
 - Amazon AWS Servers (S3, EC2)
 
+- Experience working with JavaScript
+
 Frontend:
 
 - UI/ UX design
@@ -48,8 +50,8 @@ I led the development and vision for ShotSpot. I contributed in the following ke
   - Implemented login/signup form with error handling and validation
 
 - **Backend**
-  - Built user authentication routes
-  - Connected MongoDB for secure data storage
+  - Built backend for signin/signup and user handling
+  - 
 
 ---
 
@@ -87,6 +89,10 @@ I led the development and vision for ShotSpot. I contributed in the following ke
   _Developed the complete sign-in and sign-up system, including frontend form handling and backend routing._
 
 ---
+
+## Connecting with Passions
+
+- As you know,I'm very passionate about cars and I have a videography page. This class has developed my skills for handling clients, and learning how to put myself in a situation for new opportunity. Night at the museum was an amazing opportunity for me to gain experience talking to people, and helped me to develop my situational awareness,and speaking skills.
 
 ## 🚀 Looking Forward
 
