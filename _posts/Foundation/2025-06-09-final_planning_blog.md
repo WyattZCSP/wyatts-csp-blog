@@ -8,6 +8,22 @@ description: ShotSpot and Reflection on CSP Year
 - [Resume](https://docs.google.com/document/d/15gd2jFEggFW_Nx-ctCukXkm0_yTFYGre/edit?usp=sharing&ouid=105040582367307928692&rtpof=true&sd=true) 
 - [LinkedIn](https://www.linkedin.com/in/wyatt-zimmer-b9202a366/) 
 
+## Homework Hacks
+
+## Key Highlights 
+
+Backend:
+
+- Amazon AWS Servers (S3, EC2)
+
+Frontend:
+
+- UI/ UX design
+
+- Group organizing and planning
+
+- HTML and Markdown 
+
 # 🧠 Final Project – ShotSpot
 
 ShotSpot is a platform designed for photographers to share their work, receive constructive feedback, and connect with potential clients. Our goal was to create a professional space that supports growth in the photography community. ShotSpot can be used both in the Del Norte High School Photography program and for personal or business use outside of school.
@@ -77,5 +93,7 @@ I led the development and vision for ShotSpot. I contributed in the following ke
 One of the most valuable lessons I've learned this year is the importance of teamwork. Whether debugging code, designing interfaces, or planning our project roadmap, collaborating with a group taught me communication, flexibility, and trust. These skills will guide me not only in future classes and internships, but also in sports, work, and life in general.
 
 In the future, I plan to scale ShotSpot beyond the classroom and use it as a foundation for my **videography business**. I want to transform it into a larger platform that offers photographers and videographers access to opportunities and exposure they might not otherwise find. Combining technical skills with creativity and a community focus, I hope to build something that helps others grow while continuing to develop my own talents.
+
+- [Grading](https://pages.opencodingsociety.com/dashboard)
 
 ---
