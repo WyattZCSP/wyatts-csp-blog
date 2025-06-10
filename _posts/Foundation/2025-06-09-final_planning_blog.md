@@ -5,9 +5,8 @@ description: ShotSpot and Reflection on CSP Year
 ---
 
 ## Socials
-- [Resume](#)
-- [GitHub Commits](#)
-- [Instagram or Portfolio](#)
+- [Resume](https://docs.google.com/document/d/15gd2jFEggFW_Nx-ctCukXkm0_yTFYGre/edit?usp=sharing&ouid=105040582367307928692&rtpof=true&sd=true) 
+- [LinkedIn](https://www.linkedin.com/in/wyatt-zimmer-b9202a366/) 
 
 # 🧠 Final Project – ShotSpot
 
@@ -25,7 +24,8 @@ I led the development and vision for ShotSpot. I contributed in the following ke
 
 ## 🧰 Commit Highlights
 
-_(Add real links later)_
+- [Frontend](https://github.com/Tvick22/ShotSpot/commit/d83f858d30fb63b5ce5eb5ced8389e0437207965) 
+- [Backend](https://github.com/Tvick22/ShotSpot-Backend/commit/4846eec50886b91d0c0d62f93f0dc8c683dd0a8d)
 
 - **Frontend**
   - Added navigation bar and responsive layout
