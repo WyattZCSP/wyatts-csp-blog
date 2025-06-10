@@ -4,28 +4,6 @@ title: Final Project Blog
 description: ShotSpot and Reflection on CSP Year
 ---
 
-## Socials
-- [Resume](https://docs.google.com/document/d/15gd2jFEggFW_Nx-ctCukXkm0_yTFYGre/edit?usp=sharing&ouid=105040582367307928692&rtpof=true&sd=true) 
-- [LinkedIn](https://www.linkedin.com/in/wyatt-zimmer-b9202a366/) 
-
-## Homework Hacks
-
-## Key Highlights 
-
-Backend:
-
-- Amazon AWS Servers (S3, EC2)
-
-- Experience working with JavaScript
-
-Frontend:
-
-- UI/ UX design
-
-- Group organizing and planning
-
-- HTML and Markdown 
-
 # 🧠 Final Project – ShotSpot
 
 ShotSpot is a platform designed for photographers to share their work, receive constructive feedback, and connect with potential clients. Our goal was to create a professional space that supports growth in the photography community. ShotSpot can be used both in the Del Norte High School Photography program and for personal or business use outside of school.
@@ -37,23 +15,6 @@ I led the development and vision for ShotSpot. I contributed in the following ke
 - **Project Planning** – Originated the idea for ShotSpot and organized the direction of our team.
 - **Authentication Development** – Built and styled the sign-in and sign-up functionality, handling both frontend and backend operations.
 - **Header Components** – Designed and implemented dynamic and responsive header/navigation components.
-
----
-
-## 🧰 Commit Highlights
-
-- [Frontend](https://github.com/Tvick22/ShotSpot/commit/d83f858d30fb63b5ce5eb5ced8389e0437207965) 
-- [Backend](https://github.com/Tvick22/ShotSpot-Backend/commit/4846eec50886b91d0c0d62f93f0dc8c683dd0a8d)
-
-- **Frontend**
-  - Added navigation bar and responsive layout
-  - Implemented login/signup form with error handling and validation
-
-- **Backend**
-  - Built backend for signin/signup and user handling
-  - 
-
----
 
 ## 🏅 Certificates (Foundation)
 
@@ -100,6 +61,45 @@ One of the most valuable lessons I've learned this year is the importance of tea
 
 In the future, I plan to scale ShotSpot beyond the classroom and use it as a foundation for my **videography business**. I want to transform it into a larger platform that offers photographers and videographers access to opportunities and exposure they might not otherwise find. Combining technical skills with creativity and a community focus, I hope to build something that helps others grow while continuing to develop my own talents.
 
+---
+
+## 🧰 Commit Highlights
+
+- [Frontend](https://github.com/Tvick22/ShotSpot/commit/d83f858d30fb63b5ce5eb5ced8389e0437207965) 
+- [Backend](https://github.com/Tvick22/ShotSpot-Backend/commit/4846eec50886b91d0c0d62f93f0dc8c683dd0a8d)
+
+- **Frontend**
+  - Added navigation bar and responsive layout
+  - Implemented login/signup form with error handling and validation
+
+- **Backend**
+  - Built backend for signin/signup and user handling
+  - 
+
+---
+
 - [Grading](https://pages.opencodingsociety.com/dashboard)
+
+## Socials
+- [Resume](https://docs.google.com/document/d/15gd2jFEggFW_Nx-ctCukXkm0_yTFYGre/edit?usp=sharing&ouid=105040582367307928692&rtpof=true&sd=true) 
+- [LinkedIn](https://www.linkedin.com/in/wyatt-zimmer-b9202a366/) 
+
+## Homework Hacks
+
+## Key Highlights 
+
+Backend:
+
+- Amazon AWS Servers (S3, EC2)
+
+- Experience working with JavaScript
+
+Frontend:
+
+- UI/ UX design
+
+- Group organizing and planning
+
+- HTML and Markdown 
 
 ---
