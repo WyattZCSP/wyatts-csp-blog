@@ -1,0 +1,81 @@
+---
+layout: post
+title: Final Project Blog
+description: ShotSpot and Reflection on CSP Year
+---
+
+## Socials
+- [Resume](#)
+- [GitHub Commits](#)
+- [Instagram or Portfolio](#)
+
+# 🧠 Final Project – ShotSpot
+
+ShotSpot is a platform designed for photographers to share their work, receive constructive feedback, and connect with potential clients. Our goal was to create a professional space that supports growth in the photography community. ShotSpot can be used both in the Del Norte High School Photography program and for personal or business use outside of school.
+
+### My Contribution
+
+I led the development and vision for ShotSpot. I contributed in the following key areas:
+- **Frontend/UI Design** – Designed a clean, professional user interface focused on ease of use and aesthetic appeal.
+- **Project Planning** – Originated the idea for ShotSpot and organized the direction of our team.
+- **Authentication Development** – Built and styled the sign-in and sign-up functionality, handling both frontend and backend operations.
+- **Header Components** – Designed and implemented dynamic and responsive header/navigation components.
+
+---
+
+## 🧰 Commit Highlights
+
+_(Add real links later)_
+
+- **Frontend**
+  - Added navigation bar and responsive layout
+  - Implemented login/signup form with error handling and validation
+
+- **Backend**
+  - Built user authentication routes
+  - Connected MongoDB for secure data storage
+
+---
+
+## 🏅 Certificates (Foundation)
+
+### **Foundation**
+
+- **HTML & CSS Basics Certificate**  
+  _Developed foundational skills in building web pages using HTML tags and CSS styling._
+
+- **Digital Citizenship & Ethics Certificate**  
+  _Learned best practices for online safety, ethics in technology, and privacy awareness._
+
+- **Backend Deployment Certificate**  
+  _Deployed backend using cloud services. Managed routing, environment variables, and API integration._
+
+---
+
+### **CSP / Full-Stack Projects**
+
+- **Full-Stack Project Creator Certificate – Photography Social Platform**  
+  _Designed and coded the frontend and backend of a full-stack website tailored for photography enthusiasts. Features included user authentication, photo uploads, and feedback features._
+
+---
+
+## 🎖️ Tokens (Unique Contributions)
+
+- **Token: ShotSpot Project Founder & Planner**  
+  _Originated the ShotSpot concept and led development planning, helping the team stay organized and goal-oriented._
+
+- **Token: Frontend and UI Developer**  
+  _Built key UI components, including headers, navigation, and responsive layouts with a clean aesthetic._
+
+- **Token: Full Stack Authentication Implementation**  
+  _Developed the complete sign-in and sign-up system, including frontend form handling and backend routing._
+
+---
+
+## 🚀 Looking Forward
+
+One of the most valuable lessons I've learned this year is the importance of teamwork. Whether debugging code, designing interfaces, or planning our project roadmap, collaborating with a group taught me communication, flexibility, and trust. These skills will guide me not only in future classes and internships, but also in sports, work, and life in general.
+
+In the future, I plan to scale ShotSpot beyond the classroom and use it as a foundation for my **videography business**. I want to transform it into a larger platform that offers photographers and videographers access to opportunities and exposure they might not otherwise find. Combining technical skills with creativity and a community focus, I hope to build something that helps others grow while continuing to develop my own talents.
+
+---
